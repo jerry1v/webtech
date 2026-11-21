@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   font-size: 18px;
   color: #222222;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Baloo 2', sans-serif;
+  font-family: 'Baloo 2';
   font-size: 42px;
   margin: 0 0 20px 0;
 }
