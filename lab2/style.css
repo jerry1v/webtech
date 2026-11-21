@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: #222222;
+}
+
+header {
+  padding: 30px 40px 10px 40px;
+}
+
+header h1 {
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 42px;
+  margin: 0 0 20px 0;
+}
+
+nav a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+nav a:hover {
+  color: tomato;
+}
+
+main {
+  padding: 0 40px;
+}
+
+.about-photo {
+  width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 28px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  max-width: 700px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #222222;
+  padding: 12px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 25px 40px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#active {
+  color: tomato;
+}
+
+@media (max-width: 800px) {
+  nav {
+    justify-content: space-between;
+  }
+
+  .about-photo {
+    width: 500px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 24px;
+  }
+
+  .about-photo {
+    width: 100%;
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  header, main, footer {
+    padding-inline: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 5px;
+    overflow-wrap: anywhere;
+  }
+}
