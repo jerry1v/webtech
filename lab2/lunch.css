@@ -28,7 +28,7 @@
 .dish-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 10 / 7;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 35px;
 }
@@ -71,3 +71,4 @@
     grid-template-columns: 1fr;
   }
 }
+
